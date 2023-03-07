@@ -115,6 +115,7 @@ nav {
 
 section {
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .index1 img {
@@ -220,27 +221,94 @@ section {
 }
 
 /*!-----------------Footer------------------*/
-/*.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
+/*
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
 }
 
-.footer-content {
+.columna {
+  width: 30%;
+}
+
+.columna h3 {
+  margin-top: 0;
+}
+
+.columna p {
+  margin-bottom: 0;
+}
+
+*/
+
+footer {
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  height: 5em;
+}
+.izqF{
+  float: left;
+  width: 50%;
+  margin: 0;
+  color: white;
+}
+.dereF{
+  float: right;
+  width: 50%;
+  margin: 0;
+  color: white;
+}
+
+.dereF h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2em;
+}
+.izqF h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2em;
+}
+a{
+  text-decoration: none;
+}
+.izqF img{
   align-items: center;
 }
 
-p {
-  margin: 0;
+.esp{
+  padding-top: 0.8em;
 }
-*/
+.izqF a{
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+}
+.dereF a{
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+}
+f3{
+  float: right;
+}
+.centF h1{
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2em;
+}
+
+.centF p{
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+}
