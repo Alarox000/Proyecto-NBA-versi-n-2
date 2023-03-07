@@ -1,21 +1,20 @@
-/*Header*/
-/*--------------------------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*!-----------------------Header---------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
-header{
-    width: 100%;
-    height: 60em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    background-image: url(/img/CabeceraIndex.jpg);
+header {
+  width: 100%;
+  height: 60em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(/img/CabeceraIndex.jpg);
 }
 /*
 a{
@@ -27,73 +26,76 @@ a{
 }
 */
 
-nav{
-    padding-top: 3em;
-    text-align: center;
+nav {
+  padding-top: 3em;
+  text-align: center;
 }
-.menu a:hover{
-    color: rgb(255,190,52);
-}
-
-.menu a{
-    text-decoration: none;
-    padding: 1em 1em 1em 1em;
-    font-style: Helvetica;
-    font-size: 1.3em;
-    color: white;
+.menu a:hover {
+  color: rgb(255, 190, 52);
 }
 
-.menu h1{
-    padding-top: 2em;
-    padding-left: 2em;
-    font-size: 7em;
-    color: white;
-    font-family: 'Dancing Script', cursive;
+.menu a {
+  text-decoration: none;
+  padding: 1em 1em 1em 1em;
+  font-style: Helvetica;
+  font-size: 1.3em;
+  color: white;
 }
 
-.menu h2{
-    padding-top: 1em;
-    padding-left: 7em;
-    max-width: 32em;
-    font-size: 2em;
-    color: white;
-    font-family: 'Josefin Slab', serif;
+.menu h1 {
+  padding-top: 2em;
+  padding-left: 2em;
+  font-size: 7em;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.menu h2 {
+  padding-top: 1em;
+  padding-left: 7em;
+  max-width: 32em;
+  font-size: 2em;
+  color: white;
+  font-family: "Josefin Slab", serif;
 }
 /*Boton Header*/
-.botIni{
-    padding-top: 3em;
-    padding-left: 14em;
+.botIni {
+  padding-top: 3em;
+  padding-left: 14em;
 }
 .botIni button {
-    border: none;
-    color: #fff;
-    background-image: linear-gradient(30deg, #f1c637, #ba9034);
-    border-radius: 20px;
-    background-size: 100% auto;
-    font-family: inherit;
-    font-size: 1.5em;
-    padding: 0.6em 1.5em;
-   }
-   
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #f1c637, #ba9034);
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 1.5em;
+  padding: 0.6em 1.5em;
+}
+
 .botIni button:hover {
-    background-image: linear-gradient(30deg, #e79538, #e8952f);
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
+  background-image: linear-gradient(30deg, #e79538, #e8952f);
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
 }
 
 /*!keyframes explicado:*/
-
-
+/*?En el keyframes de abajo se define la animación a lo largo del tiempo*/
+/*?en este caso la sombbra del botón*/
+/**box-shadow: Define la sombra de un objeto*/
+/*pulse512-Nombre de animación al ser pulsado*/
 @keyframes pulse512 {
-    0% {
-     box-shadow: 0 0 0 0 #acacac;
-    }
-   
-    70% {
-     box-shadow: 0 0 0 10px rgba(235, 230, 230, 0.79);
-    }
-   
-    100% {
-     box-shadow: 0 0 0 0 rgb(255, 255, 255);
-    }
-   }
+  0% {
+    box-shadow: 0 0 0 0 #acacac;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(235, 230, 230, 0.79);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+  }
+}
+
+/*!-------------------------Body---------------------------*/
