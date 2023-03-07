@@ -108,3 +108,30 @@ nav {
   position: relative;
   background-image: url(/img/CabeceraIndex.jpg);
 }
+
+/*!--------------Body_Index----------------*/
+/**----------------Article-----------------*/
+section{
+  width: 80%;
+  padding-top: 5em;
+
+}
+.index1{
+  width: 50%;
+}
+.index1 img{
+  float: left;
+  padding-left: 2em;
+}
+.indextxt1{
+  width: 50%;
+  float: right;
+
+}
+.indextxt1 p{
+  font-size: 1.8em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/**-----------------Aside------------------*/
+
