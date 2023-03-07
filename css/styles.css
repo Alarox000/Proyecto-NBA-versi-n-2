@@ -112,7 +112,6 @@ nav {
 /*!--------------Body_Index----------------*/
 /**----------------Article-----------------*/
 
-
 section {
   padding-top: 5em;
   padding-bottom: 5em;
@@ -215,38 +214,25 @@ section {
     box-shadow: 0 0 0 0 rgb(237, 181, 51);
   }
 }
-.txtDer a{
-  text-decoration: none
-  ;color: black;
+.txtDer a {
+  text-decoration: none;
+  color: black;
 }
 
 /*!-----------------Footer------------------*/
-/*
-footer {
-  background-color: #eee;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.columna {
-  width: 30%;
-}
-
-.columna h3 {
-  margin-top: 0;
-}
-
-.columna p {
-  margin-bottom: 0;
-}
-
-*/
 
 footer {
-  background: #FDC830;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -257,58 +243,117 @@ footer {
   font-size: 12px;
   height: 5em;
 }
-.izqF{
+.izqF {
   float: left;
   width: 50%;
   margin: 0;
   color: white;
 }
-.dereF{
+.dereF {
   float: right;
   width: 50%;
   margin: 0;
   color: white;
 }
 
-.dereF h1{
-  font-family: 'Crimson Text', serif;
+.dereF h1 {
+  font-family: "Crimson Text", serif;
   font-size: 1.2em;
 }
-.izqF h1{
-  font-family: 'Crimson Text', serif;
+.izqF h1 {
+  font-family: "Crimson Text", serif;
   font-size: 1.2em;
 }
-a{
+a {
   text-decoration: none;
 }
-.izqF img{
+.izqF img {
   align-items: center;
 }
 
-.esp{
+.esp {
   padding-top: 0.8em;
 }
-.izqF a{
+.izqF a {
   color: white;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 1em;
 }
-.dereF a{
+.dereF a {
   color: white;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 1em;
 }
-f3{
+f3 {
   float: right;
 }
-.centF h1{
+.centF h1 {
   color: white;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.2em;
 }
 
-.centF p{
+.centF p {
   color: white;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 1em;
+}
+
+/*TODO: Logo de la pantalla 2 */
+
+main {
+  padding-top: 10em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;    
+}
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 50%;
+  transition: all .8s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #e60073;
+  box-shadow:  0 0 20px #e60073 ;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow:  0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366 ;
+}
+
+.icon:hover:nth-child(4) {
+  background-color: #1da1f2;
+  box-shadow:  0 0 20px #1da1f2 ;
+}
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1.7rem;
+}
+
+svg circle {
+  stroke-dasharray: 150;
+  transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+  stroke-dasharray: 220;
 }
