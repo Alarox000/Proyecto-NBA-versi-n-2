@@ -143,8 +143,8 @@ section {
   font-family: "Dancing Script", cursive;
 }
 
-.sec2{
-  padding: 3em 1em 5em 15em;
+.sec2 {
+  padding: 3em 1em 2em 15em;
   display: flex;
   width: 500px;
   height: 35em;
@@ -154,16 +154,93 @@ section {
   width: 10em;
   flex-grow: 1;
   object-fit: cover;
-  opacity: .6;
-  transition: .5s ease;
+  opacity: 0.6;
+  transition: 0.5s ease;
 }
 
-.sec2 img:hover{
+.sec2 img:hover {
   cursor: crosshair;
   width: 15em;
   opacity: 1;
   filter: contrast(150%);
 }
 
-/**-----------------Aside------------------*/
+.lista {
+  align-self: center;
+}
 
+.caja {
+  width: 90%;
+  padding-bottom: 10em;
+  background-color: transparent;
+}
+
+.imgIzq {
+  padding-top: 1em;
+  padding-left: 12em;
+  float: left;
+  width: 32%;
+}
+
+.txtDer {
+  padding-right: 2em;
+  padding-left: 3em;
+  float: right;
+  width: 68%;
+}
+
+.imgIzq img:hover {
+  -webkit-animation: pulse 2s infinite;
+  animation: efecto 1.5s infinite;
+  cursor: pointer;
+}
+
+.txtDer p:hover {
+  cursor: pointer;
+  -webkit-animation: pulse 2s infinite;
+  animation: efecto 1.5s infinite;
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 #fbd37e;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(237, 196, 84, 0.79);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(237, 181, 51);
+  }
+}
+.txtDer a{
+  text-decoration: none
+  ;color: black;
+}
+/*!-----------------Aside------------------*/
+
+/*!-----------------Footer------------------*/
+/*.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+*/
