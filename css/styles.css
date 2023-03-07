@@ -111,27 +111,59 @@ nav {
 
 /*!--------------Body_Index----------------*/
 /**----------------Article-----------------*/
-section{
+section {
   width: 80%;
   padding-top: 5em;
+}
 
-}
-.index1{
-  width: 50%;
-}
-.index1 img{
+.index1 img {
   float: left;
-  padding-left: 2em;
+  padding-left: 1em;
 }
-.indextxt1{
+.indextxt1 {
   width: 50%;
   float: right;
-
 }
-.indextxt1 p{
+.indextxt1 p {
   font-size: 1.8em;
   padding-left: 1em;
   padding-right: 1em;
 }
+
+.index2 {
+  padding-left: 32%;
+}
+.index2 h2 {
+  padding-top: 6em;
+  padding-left: 1.4em;
+  padding-bottom: 0em;
+  max-width: 32em;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+  font-family: "Dancing Script", cursive;
+}
+
+.sec2{
+  padding: 3em 1em 5em 15em;
+  display: flex;
+  width: 500px;
+  height: 35em;
+}
+
+.sec2 img {
+  width: 10em;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .6;
+  transition: .5s ease;
+}
+
+.sec2 img:hover{
+  cursor: crosshair;
+  width: 15em;
+  opacity: 1;
+  filter: contrast(150%);
+}
+
 /**-----------------Aside------------------*/
 
