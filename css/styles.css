@@ -98,4 +98,13 @@ nav {
   }
 }
 
-/*!-------------------------Body---------------------------*/
+/*!-------------------Header para los demás-----------------*/
+.encabezado header {
+  width: 100%;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(/img/CabeceraIndex.jpg);
+}
